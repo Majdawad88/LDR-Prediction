@@ -8,4 +8,4 @@ while True:
     future_prediction = model.predict([[current_time_index + 50]])
     
     if future_prediction < THRESHOLD:
-        print("AI Alert: Failure Predicted!", flush=True) ser.write(b'1') # Turn on Arduino LED Pin 13 else: ser.write(b'0')
+        print("AI Alert: Failure Predicted!", flush=True) 
