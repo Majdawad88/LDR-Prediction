@@ -1,6 +1,4 @@
 #git clone https://github.com/Majdawad88/LDR-Prediction.git
-
-
 import serial
 import time
 import numpy as np
@@ -67,7 +65,3 @@ while True:
 
     time.sleep(0.1) # Small delay to match Arduino speed
 
-        except ValueError:
-            continue
-
-    time.sleep(0.1) # Small delay to match Arduino speed
