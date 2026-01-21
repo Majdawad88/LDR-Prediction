@@ -1,4 +1,4 @@
-#git clone
+#git clone https://github.com/Majdawad88/LDR-Prediction.git
 # Assume threshold for "Failure" is a light level below 300
 THRESHOLD = 300
 
